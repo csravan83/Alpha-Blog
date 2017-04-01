@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails AlphaBlog: test" uuid="c3595fc3-0b58-4185-9824-33dd8464d7f4">
+      <database-info product="PostgreSQL" version="9.5.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>sravan</user-name>
+      <introspection-schemas>AlphaBlog_test:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails AlphaBlog: production" uuid="ed16be15-8f4d-490d-a668-0210c4e18a8b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sravan</user-name>
+    </data-source>
+    <data-source name="Rails AlphaBlog: development" uuid="81aa4543-5297-4134-a013-e3117f887156">
+      <database-info product="PostgreSQL" version="9.5.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sravan</user-name>
+      <introspection-schemas>AlphaBlog_development:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
