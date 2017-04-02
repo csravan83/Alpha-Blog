@@ -39,7 +39,7 @@ before_action :set_article, only: [:edit,:update,:show,:destroy]
   def destroy
 
     @article.destroy
-    flash[:danger] = "Article was succesfully created"
+    flash[:danger] = "Article was succesfully deleted"
     redirect_to articles_path
   end
 
