@@ -10,8 +10,12 @@ end
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
 gem 'bcrypt', '~> 3.1.7'
+
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '~> 5.0'
@@ -57,4 +61,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'pg', '~> 0.18'
   gem 'rails_12factor'
+
 end
